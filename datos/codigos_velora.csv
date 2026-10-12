@@ -1,0 +1,133 @@
+codigo,categoria,falla,sintoma,solucion,conjunto
+E-01,Motor e inyección,Sensor de presión del múltiple (MAP) fuera de rango,marcha mínima inestable y consumo alto de gasolina,Revise la manguera de vacío y el conector del sensor MAP; reemplácelo si la lectura no cambia al acelerar.,catalogo_base
+E-02,Motor e inyección,Sensor de temperatura del aire de admisión con lectura errática,arranque difícil cuando hace calor,Limpie el conector y mida la resistencia del sensor de temperatura del aire.,catalogo_base
+E-03,Motor e inyección,Inyector de combustible obstruido,la moto se apaga en ralentí y tironea al acelerar,Limpie el inyector por ultrasonido; reemplácelo si el patrón de rociado es irregular.,catalogo_base
+E-04,Motor e inyección,Bobina de encendido sin señal,el motor gira pero no hay chispa en la bujía,Revise el capuchón de la bujía y mida la resistencia primaria de la bobina.,catalogo_base
+E-05,Motor e inyección,Bujía en corto o desgastada,pérdida de potencia y fallas en las subidas,"Cambie la bujía y verifique la calibración de 0,8 mm.",catalogo_base
+E-06,Motor e inyección,Sensor de posición del cigüeñal sin señal,el motor se apaga de repente andando y no vuelve a prender,Revise la distancia del sensor al volante magnético y su cableado.,catalogo_base
+E-07,Motor e inyección,Sensor de posición del acelerador descalibrado,la moto se queda acelerada sola,Calibre el sensor de posición del acelerador con el escáner del taller.,catalogo_base
+E-08,Motor e inyección,Válvula de control de ralentí trabada,el ralentí sube y baja solo,Limpie el cuerpo de aceleración y la válvula de ralentí.,catalogo_base
+E-09,Motor e inyección,Bomba de gasolina sin presión,el motor de arranque gira pero la moto no enciende,Revise el fusible y el relé de la bomba y mida la presión de combustible.,catalogo_base
+E-10,Motor e inyección,Filtro de gasolina tapado,la moto se apaga en subidas largas o a alta velocidad,Cambie el filtro de gasolina.,catalogo_base
+E-11,Motor e inyección,Sensor de oxígeno sin señal,humo negro y olor fuerte a gasolina,Revise el conector del sensor en el exosto y reemplace el sensor.,catalogo_base
+E-12,Motor e inyección,Mezcla pobre detectada,el motor petardea al desacelerar,Busque entradas de aire falso en el múltiple y revise los empaques.,catalogo_base
+E-13,Motor e inyección,Mezcla rica detectada,consumo de gasolina muy alto y bujía negra,Revise el filtro de aire y la presión de combustible.,catalogo_base
+E-14,Motor e inyección,Sin comunicación con la ECU,luz de motor encendida y el escáner no conecta,"Revise el conector y la masa de la ECU; si persiste, reprograme la ECU en el taller.",catalogo_base
+E-15,Motor e inyección,Compresión baja en el cilindro,pierde fuerza y arranca con dificultad en frío,Mida la compresión y revise anillos y válvulas.,catalogo_base
+E-16,Motor e inyección,Holgura de válvulas fuera de rango,golpeteo metálico en la parte alta del motor,"Calibre las válvulas: admisión 0,10 mm y escape 0,15 mm.",catalogo_base
+E-17,Motor e inyección,Cadenilla de distribución estirada,ruido de cadena dentro del motor en ralentí,Revise el tensor y cambie la cadenilla de distribución.,catalogo_base
+E-18,Motor e inyección,Detonación detectada por el sensor de golpe,el motor cascabelea al subir lomas,Use gasolina de buena calidad y haga descarbonización.,catalogo_base
+E-19,Motor e inyección,Cuerpo de aceleración sucio,la moto responde lento al acelerar,Limpie el cuerpo de aceleración con limpiador especial.,catalogo_base
+E-20,Motor e inyección,Fuga en el múltiple de admisión,silbido al acelerar y ralentí alto,Cambie el empaque del múltiple de admisión.,catalogo_base
+E-21,Motor e inyección,Sensor de presión barométrica con falla,pierde potencia en zonas altas de montaña,Revise el sensor barométrico integrado en la ECU.,catalogo_base
+E-22,Motor e inyección,Válvula del canister bloqueada,olor fuerte a gasolina con la moto parada,Revise la manguera y la válvula del canister.,catalogo_base
+E-23,Motor e inyección,Sobrerrevolución del motor,el motor corta al llegar al límite de revoluciones,Es una protección normal; evite llevar el motor al corte de forma constante.,catalogo_base
+E-24,Motor e inyección,Falla del arranque en frío,tironea y se apaga los primeros minutos en las mañanas frías,Deje calentar el motor un minuto y revise el sensor de temperatura del motor.,catalogo_base
+C-01,Sistema eléctrico,Voltaje de batería bajo,las luces se ven débiles y la moto no arranca,Cargue la batería con cargador lento; cámbiela si no retiene la carga.,catalogo_base
+C-02,Sistema eléctrico,Sobrevoltaje en el sistema de carga,se funden los bombillos con frecuencia,"Revise el regulador; el voltaje de carga debe estar entre 13,5 y 14,5 V.",catalogo_base
+C-03,Sistema eléctrico,Regulador rectificador defectuoso,la batería se descarga aunque la moto se use a diario,Mida el voltaje de carga en marcha y cambie el regulador.,catalogo_base
+C-04,Sistema eléctrico,Estator con bobinas quemadas,la batería no carga y hay olor a quemado,Mida la resistencia del estator y reemplácelo.,catalogo_base
+C-05,Sistema eléctrico,Motor de arranque no gira,solo se escucha un clic al oprimir el botón de arranque,Revise el relé de arranque y las escobillas del motor de arranque.,catalogo_base
+C-06,Sistema eléctrico,Relé de arranque pegado,el motor de arranque sigue girando después de soltar el botón,Cambie el relé de arranque.,catalogo_base
+C-07,Sistema eléctrico,Fusible principal fundido,no prende nada en la moto,Busque el cortocircuito antes de cambiar el fusible principal de 15 A.,catalogo_base
+C-08,Sistema eléctrico,Cortocircuito en el circuito de luces,se apagan las luces y se funde el fusible,Revise el cableado del faro delantero.,catalogo_base
+C-09,Sistema eléctrico,Bombillo de direccional fundido,las direccionales parpadean muy rápido,Cambie el bombillo o instale el relé para direccionales LED.,catalogo_base
+C-10,Sistema eléctrico,Falla del circuito del pito,el pito no suena,Revise el fusible de 10 A y limpie los contactos del botón.,catalogo_base
+C-11,Sistema eléctrico,El inmovilizador no reconoce la llave,la moto no enciende con la llave,Pruebe con la llave de repuesto y reprograme la llave principal en el taller.,catalogo_base
+C-12,Sistema eléctrico,Sensor de velocidad sin señal,el velocímetro marca cero aunque la moto esté andando,Limpie y revise el conector del sensor en la rueda trasera.,catalogo_base
+C-13,Sistema eléctrico,Sensor de caída activado,el motor no enciende después de una caída o volcamiento,"Levante la moto, apague la llave, espere 10 segundos y vuelva a encender.",catalogo_base
+C-14,Sistema eléctrico,Sensor de la pata lateral con falla,la moto se apaga al meter un cambio,Revise el interruptor de la pata lateral.,catalogo_base
+C-15,Sistema eléctrico,Interruptor del clutch con falla,no arranca aunque se apriete el clutch,Revise el interruptor de la manigueta del clutch.,catalogo_base
+C-16,Sistema eléctrico,Tablero sin comunicación,el tablero se apaga o muestra rayas,Revise el conector del tablero y su masa.,catalogo_base
+C-17,Sistema eléctrico,Luz de freno siempre encendida,la luz de stop no se apaga,Ajuste el interruptor del freno trasero.,catalogo_base
+C-18,Sistema eléctrico,Luz de freno no enciende,la luz de stop no prende al frenar,Revise el bombillo y los interruptores de freno.,catalogo_base
+C-19,Sistema eléctrico,Masa del chasis floja,fallas eléctricas intermitentes al pasar por huecos,Limpie y apriete la conexión de masa principal.,catalogo_base
+C-20,Sistema eléctrico,Puerto USB sin corriente,el puerto no carga el celular,Revise el fusible del puerto USB.,catalogo_base
+C-21,Sistema eléctrico,Exploradoras sin señal,las luces auxiliares no prenden,Revise el relé y el interruptor de las exploradoras.,catalogo_base
+C-22,Sistema eléctrico,Alarma activada sin motivo,la alarma suena sola,Ajuste la sensibilidad del sensor de movimiento de la alarma.,catalogo_base
+C-23,Sistema eléctrico,Batería sulfatada,la batería está hinchada o tiene polvo blanco en los bornes,Limpie los bornes y reemplace la batería.,catalogo_base
+C-24,Sistema eléctrico,Consumo de corriente con la moto apagada,la batería amanece descargada,Mida el consumo en reposo y revise la alarma y los accesorios instalados.,catalogo_base
+F-01,Frenos y suspensión,Sensor ABS delantero sin señal,se enciende la luz ABS en el tablero,Limpie el sensor y el anillo dentado de la rueda delantera.,catalogo_base
+F-02,Frenos y suspensión,Sensor ABS trasero sin señal,luz ABS encendida y la rueda trasera frena sin antibloqueo,Limpie y revise el sensor de la rueda trasera.,catalogo_base
+F-03,Frenos y suspensión,Módulo ABS sin presión,la manigueta vibra fuerte y la moto frena poco,Haga un diagnóstico del módulo ABS en el taller.,catalogo_base
+F-04,Frenos y suspensión,Nivel bajo de líquido de frenos delantero,la manigueta del freno se va hasta el fondo,"Revise pastillas y fugas, y complete con líquido DOT 4.",catalogo_base
+F-05,Frenos y suspensión,Nivel bajo de líquido de frenos trasero,el pedal del freno se siente largo,Revise el depósito trasero y busque fugas.,catalogo_base
+F-06,Frenos y suspensión,Aire en el sistema de frenos,el freno se siente esponjoso o blandito,Purgue el sistema de frenos.,catalogo_base
+F-07,Frenos y suspensión,Pastillas delanteras gastadas,chillido metálico al frenar,Cambie las pastillas delanteras.,catalogo_base
+F-08,Frenos y suspensión,Pastillas traseras gastadas,ruido de raspado en la rueda trasera al frenar,Cambie las pastillas traseras.,catalogo_base
+F-09,Frenos y suspensión,Disco delantero alabeado,la moto vibra al frenar fuerte,"Mida el alabeo del disco y cámbielo si supera 0,3 mm.",catalogo_base
+F-10,Frenos y suspensión,Mordaza de freno pegada,la rueda se calienta y frena sola,Limpie y lubrique los pasadores de la mordaza.,catalogo_base
+F-11,Frenos y suspensión,Líquido de frenos contaminado,el freno pierde fuerza en bajadas largas,Cambie el líquido de frenos DOT 4.,catalogo_base
+F-12,Frenos y suspensión,Retenes de la suspensión delantera dañados,la suspensión bota aceite por las barras,Cambie los retenes y el aceite de la suspensión.,catalogo_base
+F-13,Frenos y suspensión,Suspensión delantera sin aceite,la moto rebota mucho al frenar,Cambie el aceite de la telescópica.,catalogo_base
+F-14,Frenos y suspensión,Amortiguador trasero vencido,rebota en los huecos y se siente suelta atrás,Cambie o recargue el amortiguador trasero.,catalogo_base
+F-15,Frenos y suspensión,Precarga trasera mal ajustada,la moto se hunde cuando lleva parrillero,Ajuste la precarga del resorte trasero.,catalogo_base
+F-16,Frenos y suspensión,Rodamientos de dirección flojos,golpeteo en la dirección al frenar,Ajuste o cambie los rodamientos de dirección.,catalogo_base
+F-17,Frenos y suspensión,Dirección dura,cuesta girar el manubrio,Lubrique o cambie los rodamientos de dirección.,catalogo_base
+F-18,Frenos y suspensión,Rodamiento de la rueda delantera desgastado,zumbido que aumenta con la velocidad,Cambie los rodamientos de la rueda delantera.,catalogo_base
+F-19,Frenos y suspensión,Llanta delantera con baja presión,la dirección se siente pesada,Infle la llanta delantera a 29 psi.,catalogo_base
+F-20,Frenos y suspensión,Llanta trasera con baja presión,la moto se siente inestable en las curvas,"Infle la llanta trasera a 33 psi, o 36 psi con parrillero.",catalogo_base
+F-21,Frenos y suspensión,Desgaste irregular de la llanta,la moto tira hacia un lado,Revise la alineación de la rueda trasera y la presión.,catalogo_base
+F-22,Frenos y suspensión,Freno trasero de tambor desajustado,el freno de atrás casi no frena,Ajuste el tensor del freno de tambor.,catalogo_base
+F-23,Frenos y suspensión,Bujes del basculante gastados,la parte trasera se mueve de lado a lado,Cambie los bujes del basculante.,catalogo_base
+F-24,Frenos y suspensión,Sensor de presión de llantas sin señal,aparece un aviso de llanta en el tablero,Revise la batería del sensor de presión de la llanta.,catalogo_base
+T-01,Transmisión y cadena,Sensor de neutro con falla,no prende la luz N y la moto no arranca en neutro,Revise el sensor de neutro ubicado sobre la caja de cambios.,catalogo_base
+T-02,Transmisión y cadena,Indicador de marcha errático,el número del cambio parpadea en el tablero,Limpie el sensor de posición de cambios.,catalogo_base
+T-03,Transmisión y cadena,Cadena destensionada,la cadena suena o golpea al acelerar,Ajuste la holgura de la cadena a 25 - 35 mm.,catalogo_base
+T-04,Transmisión y cadena,Cadena demasiado tensa,ruido en la transmisión y desgaste rápido del piñón,Afloje la cadena hasta la holgura correcta.,catalogo_base
+T-05,Transmisión y cadena,Kit de arrastre gastado,la cadena salta en los piñones,"Cambie cadena, piñón y corona al mismo tiempo.",catalogo_base
+T-06,Transmisión y cadena,Clutch patina,el motor se acelera pero la moto no avanza en las subidas,Cambie los discos del clutch.,catalogo_base
+T-07,Transmisión y cadena,Clutch pegado,la moto se mueve aunque el clutch esté apretado,Ajuste la guaya y revise el aceite del motor.,catalogo_base
+T-08,Transmisión y cadena,Guaya del clutch estirada o reventada,la manigueta del clutch queda floja,Cambie la guaya del clutch.,catalogo_base
+T-09,Transmisión y cadena,Cambios duros,cuesta meter los cambios,Ajuste el juego de la guaya y revise las horquillas.,catalogo_base
+T-10,Transmisión y cadena,La caja se sale de cambio,la moto se sale de un cambio al acelerar,Revise las horquillas y los engranajes de la caja.,catalogo_base
+T-11,Transmisión y cadena,Pedal de cambios flojo,el pedal de cambios baila,Apriete el tornillo del pedal de cambios.,catalogo_base
+T-12,Transmisión y cadena,Piñón de salida con juego,golpe metálico al soltar el clutch,Apriete la tuerca del piñón de salida.,catalogo_base
+T-13,Transmisión y cadena,Cauchos del porta corona gastados,tirones al acelerar y al soltar el acelerador,Cambie los cauchos del porta corona.,catalogo_base
+T-14,Transmisión y cadena,Rodamiento de la rueda trasera desgastado,zumbido en la parte trasera de la moto,Cambie los rodamientos de la rueda trasera.,catalogo_base
+T-15,Transmisión y cadena,Rueda trasera desalineada,la cadena se corre hacia un lado,Alinee la rueda con las marcas del basculante.,catalogo_base
+T-16,Transmisión y cadena,Guía de cadena desgastada,la cadena roza el basculante,Cambie el deslizador de la cadena.,catalogo_base
+T-17,Transmisión y cadena,Aceite de la caja contaminado,los cambios suenan y raspan,Cambie el aceite.,catalogo_base
+T-18,Transmisión y cadena,Bloqueo de arranque en cambio,no arranca en cambio aunque se apriete el clutch,Revise el sensor de la pata lateral y el interruptor del clutch.,catalogo_base
+T-19,Transmisión y cadena,Selector de cambios dañado,la moto se queda en un solo cambio,Revise el selector y su resorte.,catalogo_base
+T-20,Transmisión y cadena,Clutch sobrecalentado,olor a quemado después de un trancón,Deje enfriar y evite mantener el clutch a medias.,catalogo_base
+T-21,Transmisión y cadena,Cadena sin lubricación,la cadena chilla y se ve oxidada,Limpie y lubrique la cadena cada 500 km.,catalogo_base
+T-22,Transmisión y cadena,Piñón con dientes en punta,la cadena hace ruido aun bien tensionada,Cambie el kit de arrastre.,catalogo_base
+T-23,Transmisión y cadena,Tensor de cadena trabado,no se puede ajustar la cadena,Libere y lubrique el tensor de la cadena.,catalogo_base
+T-24,Transmisión y cadena,Rodamiento de la caja desgastado,zumbido en neutro que desaparece al apretar el clutch,Revise los rodamientos de la caja de cambios.,catalogo_base
+L-01,Refrigeración y lubricación,Temperatura del motor demasiado alta,la aguja de temperatura está en rojo,"Detenga la moto, deje enfriar y revise el refrigerante.",catalogo_base
+L-02,Refrigeración y lubricación,Nivel de refrigerante bajo,el depósito de refrigerante está bajo el mínimo,Complete con refrigerante y busque fugas.,catalogo_base
+L-03,Refrigeración y lubricación,El ventilador no enciende,la moto se recalienta en los trancones,Revise el fusible y el relé del ventilador.,catalogo_base
+L-04,Refrigeración y lubricación,Ventilador siempre encendido,el ventilador nunca se apaga,Revise el sensor de temperatura del refrigerante.,catalogo_base
+L-05,Refrigeración y lubricación,Termostato pegado abierto,el motor no llega a su temperatura normal en las mañanas,Cambie el termostato.,catalogo_base
+L-06,Refrigeración y lubricación,Termostato pegado cerrado,se recalienta rápido aunque tenga refrigerante,Cambie el termostato.,catalogo_base
+L-07,Refrigeración y lubricación,Fuga en el radiador,gotea líquido verde debajo de la moto,Revise el radiador y las mangueras.,catalogo_base
+L-08,Refrigeración y lubricación,Tapa del radiador defectuosa,el refrigerante se bota por el depósito,Cambie la tapa del radiador.,catalogo_base
+L-09,Refrigeración y lubricación,Sello de la bomba de agua con fuga,gotea refrigerante por el costado del motor,Cambie el sello de la bomba de agua.,catalogo_base
+L-10,Refrigeración y lubricación,Radiador tapado de barro,se recalienta después de rodar por destapado,Lave el panal del radiador con agua a baja presión.,catalogo_base
+L-11,Refrigeración y lubricación,Presión de aceite baja,la luz de aceite está encendida,Apague el motor de inmediato y revise el nivel de aceite.,catalogo_base
+L-12,Refrigeración y lubricación,Nivel de aceite bajo,el aceite no se ve en la mirilla,Complete el aceite y busque fugas.,catalogo_base
+L-13,Refrigeración y lubricación,Aceite vencido,el aceite está negro y espeso,Cambie el aceite; el intervalo es de 3.000 km.,catalogo_base
+L-14,Refrigeración y lubricación,Consumo de aceite del motor,sale humo azul por el exosto,Mida la compresión y revise anillos y guías de válvula.,catalogo_base
+L-15,Refrigeración y lubricación,Fuga por el empaque de la tapa de válvulas,hay aceite en la parte alta del motor,Cambie el empaque de la tapa de válvulas.,catalogo_base
+L-16,Refrigeración y lubricación,Fuga por el tapón del cárter,gotea aceite debajo del motor,Cambie la arandela del tapón del cárter.,catalogo_base
+L-17,Refrigeración y lubricación,Filtro de aceite tapado,presión de aceite baja a altas revoluciones,Cambie el filtro de aceite.,catalogo_base
+L-18,Refrigeración y lubricación,Bomba de aceite desgastada,la luz de aceite parpadea en ralentí con el motor caliente,Revise la bomba de aceite.,catalogo_base
+L-19,Refrigeración y lubricación,Aceite contaminado con agua,el aceite se ve como café con leche,Revise el empaque de culata y la bomba de agua.,catalogo_base
+L-20,Refrigeración y lubricación,Aceite incorrecto,el clutch empieza a patinar después de un cambio de aceite,"Use aceite para moto con norma JASO MA, nunca aceite de carro.",catalogo_base
+L-21,Refrigeración y lubricación,Exceso de aceite en el motor,el nivel de aceite pasa la marca máxima,Drene aceite hasta el nivel correcto.,catalogo_base
+L-22,Refrigeración y lubricación,Sensor de temperatura del aceite con falla,la lectura de temperatura del aceite es errática,Revise el sensor y su conector.,catalogo_base
+L-23,Refrigeración y lubricación,Enfriador de aceite tapado,el aceite se calienta mucho en viajes largos,Limpie el enfriador de aceite.,catalogo_base
+L-24,Refrigeración y lubricación,Mangueras de refrigerante resecas,las mangueras del radiador están agrietadas,Cambie las mangueras de refrigerante.,catalogo_base
+B-01,Moto eléctrica E-Volt,Batería de tracción descargada,la moto no avanza y el tablero muestra 0 %,Cargue la batería completa; tarda unas 6 horas en un tomacorriente normal.,evolt
+B-02,Moto eléctrica E-Volt,El cargador no se comunica con la batería,el cargador no inicia la carga,"Revise que el conector esté bien insertado, use el cargador original y reconecte después de 30 segundos.",evolt
+B-03,Moto eléctrica E-Volt,Batería demasiado fría,la carga se demora mucho en clima frío,Cargue la moto en un lugar a más de 10 °C.,evolt
+B-04,Moto eléctrica E-Volt,Temperatura de la batería alta,la carga se pausa sola,Deje la moto a la sombra 30 minutos; la carga se reanuda sola.,evolt
+B-05,Moto eléctrica E-Volt,Desbalance entre celdas de la batería,la autonomía baja poco a poco,Lleve la moto al taller para balancear las celdas.,evolt
+B-06,Moto eléctrica E-Volt,Falla de aislamiento del alto voltaje,aparece un aviso rojo en el tablero,No toque los cables naranja ni use la moto; llévela al taller en grúa.,evolt
+B-07,Moto eléctrica E-Volt,Conector de carga mojado,no deja cargar después de lavar la moto,Seque bien el conector de carga antes de conectar el cargador.,evolt
+B-08,Moto eléctrica E-Volt,Sobrecorriente en la descarga,se corta la potencia al acelerar a fondo,Acelere de forma progresiva y haga revisar el sistema de gestión de la batería.,evolt
+M-01,Moto eléctrica E-Volt,Motor eléctrico sobrecalentado,la moto se limita a 30 km/h en modo tortuga,Detenga la moto unos minutos para que el motor se enfríe.,evolt
+M-02,Moto eléctrica E-Volt,Falla del controlador del motor,la moto prende pero no avanza,"Apague y encienda la moto; si persiste, diagnostique el controlador en el taller.",evolt
+M-03,Moto eléctrica E-Volt,Sensor del acelerador eléctrico con falla,la moto acelera a saltos,Revise el conector del puño acelerador.,evolt
+M-04,Moto eléctrica E-Volt,Freno regenerativo desactivado,la moto no recupera carga al frenar,Active la regeneración desde el menú del tablero.,evolt
